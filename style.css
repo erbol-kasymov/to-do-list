@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+*{
+    font-family: 'Lobster Two', cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/background-body.jpg);
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* font-family: 'Bebas Neue'; */
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 1px white;
+}
+.mainBlock{
+    width: 700px;
+    background: rgba(255, 255, 255, 0.863);
+    box-shadow: 0px 0px 30px black;
+    opacity: 0.9;
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.mainBlock div:first-child{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+
+}
+.textIn{
+    height: 2em;
+    text-align: center;
+    font-size: 1em;
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+ul{
+    padding-left: 10px;
+}
+li{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    margin-top: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.sp{
+    font-size: 1.5em;
+}
