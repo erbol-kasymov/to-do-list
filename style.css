@@ -57,7 +57,7 @@ ul{
 }
 li{
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
     grid-column-gap: 5px;
     margin-top: 10px;
     align-items: center;
@@ -66,3 +66,18 @@ li{
 .sp{
     font-size: 1.5em;
 }
+
+/* .btn_clear{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(231, 184, 184);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(119, 45, 45);
+    font-weight: 700;
+}
+
+.btn_clear:hover{
+    
+} */
